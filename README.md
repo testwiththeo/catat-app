@@ -57,10 +57,6 @@ Catat requests three permissions on first run: draw over other apps (for the flo
 
 Kotlin, Jetpack Compose, Clean Architecture, Room, Hilt.
 
-## Contributing
-
-Bug reports and pull requests are welcome. See [CONTRIBUTING.md](COMMIT_GUIDE.md) for conventions.
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
