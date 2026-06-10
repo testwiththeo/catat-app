@@ -19,29 +19,31 @@
   </p>
 </div>
 
-Catat is an Android app that helps QA engineers file better bug reports faster. A floating button lets you capture screenshots from any app, annotate with arrows and blur, and export formatted reports to Jira, GitHub Issues, Linear, or Markdown. All in under 30 seconds.
+Every time you file a bug, you lose 5 minutes switching between apps, typing context, and formatting screenshots. Do that 10 times a day and you have wasted an hour. That hour belongs to testing, not paperwork.
+
+Catat is an Android app that fixes this. A floating button lets you capture, annotate, and export a complete bug report in under 30 seconds without ever leaving the app you are testing.
 
 ## The Problem
 
-Every day you lose 30 to 60 minutes on busywork. Taking screenshots, copying device info, formatting steps to reproduce, pasting everything into a ticket system. That is not testing. That is paperwork.
+Bug reporting is broken. You switch between your app and a ticket system. You type the same device info over and over. You open a separate editor to annotate screenshots. You paste everything together and hope the format sticks.
 
-Worse, bug reports end up messy. Missing context, inconsistent format, no screenshots with annotations. Developers waste time asking for clarification. Bugs take longer to fix.
+The result is slow, inconsistent, and frustrating. Developers get reports with missing context, no annotations, and different formats every time. They ask for clarifications. Bugs sit longer. Quality suffers.
 
-## What Catat Does
+**Testing should be the bottleneck. Not bug reporting.**
 
-Catat turns bug reporting into a single flow.
+## The Flow
 
-Tap the floating button from any app. Capture a screenshot. Annotate it with arrows, text, or blur to hide sensitive data. Catat automatically attaches device model, OS version, network type, and battery level. Export to Jira, GitHub Issues, Linear, or Markdown with one tap. Done.
+Tap the floating button from any screen. Catat captures the screenshot and overlays your annotation tools. Draw arrows, add text, or blur sensitive data. Device model, OS version, network type, and battery level are attached automatically. Choose Jira, GitHub Issues, Linear, or Markdown and export with one tap.
 
-**30 seconds per bug report instead of 5 minutes.**
+30 seconds. Done.
 
-| Pain Point | How Catat Helps |
-|------------|----------------|
-| Switching between apps to capture, annotate, and file | Floating button works over any app. No context switching. |
-| Bug reports missing critical context | Device info, OS, network, battery attached automatically. |
-| Inconsistent report formats | One tap export to Jira, GitHub, Linear, or Markdown. Consistent every time. |
-| Sensitive data in screenshots | Built-in blur tool to redact before export. |
-| Reports lost or scattered | All reports saved locally, searchable, offline. |
+| What Used to Happen | What Happens Now |
+|---|---|
+| Switch between 4 apps to file one bug | Stay in your flow. Catat never leaves your screen. |
+| Type device info manually every time | Device context attached automatically. |
+| Reports arrive in random formats | Every export follows the same template. |
+| Accidentally share sensitive data | One tap blur, gone. |
+| Lose track of past reports | All reports saved locally, searchable offline. |
 
 ## Quick Start
 
@@ -51,7 +53,7 @@ cd catat-app
 ./gradlew assembleDebug && adb install app/build/outputs/apk/debug/app-debug.apk
 ```
 
-Catat requests three permissions on first run: draw over other apps (for the floating button), media projection (to capture screenshots), and notifications (to keep the service alive). All data stays on your device.
+Catat needs draw-overlay permission for the floating button, media projection to capture screens, and notifications to stay alive. Nothing leaves your device.
 
 ## Built With
 
