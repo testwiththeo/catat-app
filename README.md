@@ -55,7 +55,7 @@ Catat requests three permissions on first run: draw over other apps (for the flo
 
 ## Built With
 
-Kotlin, Jetpack Compose, Clean Architecture, Room, Hilt. Full docs on [architecture](docs/03_ARCHITECTURE.md), [data model](docs/04_DATA_MODEL.md), and [testing strategy](docs/06_TEST_PLAN.md).
+Kotlin, Jetpack Compose, Clean Architecture, Room, Hilt.
 
 ## Contributing
 
