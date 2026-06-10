@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Catat</string>
+    <string name="capture_screenshot">Capture screenshot</string>
+    <string name="screen_capture_blocked">This app blocks screenshots</string>
+    <string name="capture_cancelled">Capture cancelled</string>
+    <string name="capture_failed">Capture failed</string>
+    <string name="capture_saved">Screenshot saved</string>
+    <string name="capture_timed_out">Timed out waiting for screenshot</string>
+    <string name="overlay_permission_required">Allow display over other apps to enable the floating capture button</string>
+    <string name="notification_permission_required">Allow notifications so Catat can keep capture controls running</string>
+    <string name="capture_notification_channel">Capture controls</string>
+    <string name="capture_notification_channel_description">Floating capture button and screen capture status</string>
+    <string name="capture_notification_title">Catat capture is ready</string>
+    <string name="capture_notification_text">Tap the floating button to capture a screenshot</string>
+    <string name="capture_notification_active_title">Capturing screenshot</string>
+    <string name="capture_notification_active_text">Catat is saving the current screen</string>
+    <string name="quick_action_capture">Capture</string>
+    <string name="quick_action_hide">Hide</string>
+    <string name="storage_full">Storage full. Free up space to save screenshots.</string>
+    <string name="copied_to_clipboard">Copied to clipboard ✓</string>
+    <string name="no_reports_yet">No reports yet</string>
+    <string name="tap_floating_button">Tap the floating button to capture your first bug!</string>
+</resources>
